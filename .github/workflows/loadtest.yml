@@ -1,11 +1,7 @@
 name: Load Testing
 
 on:
-  # Trigger the workflow on push to main branch
-  push:
-    branches: [ main ]
-  # Allow manual triggering of the workflow
-  workflow_dispatch:
+ 
 
 jobs:
   load-test:
