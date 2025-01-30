@@ -2,4 +2,5 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=JJavierGarcia_React-app&metric=coverage)](https://sonarcloud.io/summary/new_code?id=JJavierGarcia_React-app)
 
 
+
 Readme for the frontend
