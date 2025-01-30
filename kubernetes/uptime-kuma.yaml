@@ -14,6 +14,7 @@ spec:
         app: uptime-kuma
     spec:
       containers:
+      automountServiceAccountToken: false
         - name: uptime-kuma
           image: louislam/uptime-kuma:1
           ports:
