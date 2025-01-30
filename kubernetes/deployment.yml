@@ -16,6 +16,7 @@ spec:
       imagePullSecrets:
         - name: acr-auth
       containers:
+      automountServiceAccountToken: false
         - name: react-app
           image: leakplantingregistry.azurecr.io/react-app:latest
           imagePullPolicy: Always
